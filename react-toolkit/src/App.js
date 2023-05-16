@@ -1,0 +1,17 @@
+import logo from './logo.svg';
+import './App.css';
+import CounterBox from './components/CounterBox';
+import MemoComp from './components/MemoComp';
+
+function App() {
+  return (
+    <div className="App">
+        <CounterBox/>
+        <hr/>
+        <MemoComp/>
+
+    </div>
+  );
+}
+
+export default App;
